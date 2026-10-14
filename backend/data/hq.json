@@ -1,0 +1,6 @@
+{
+  "marvel": ["marvel/1.jpg", "marvel/2.jpg", "marvel/3.jpg"],
+  "dc": ["dc/1.jpg", "dc/2.jpg", "dc/3.jpg"],
+  "image-comics": ["image-comics/1.jpg", "image-comics/2.jpg", "image-comics/3.jpg"],
+  "dark-horse-comics": ["dark-horse-comics/1.jpg", "dark-horse-comics/2.jpg", "dark-horse-comics/3.jpg"]
+}
