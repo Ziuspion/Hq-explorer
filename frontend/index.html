@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HQ Explorer</title>
+    <script src="./script.js" defer></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main class="container">
+        <p class="eyebrow">UM ACERVO PARA EXPLORAR</p>
+        <h1>📚 HQ Explorer</h1>
+        <p class="subtitle">Descubra capas de quadrinhos por editora ou deixe a sorte escolher.</p>
+
+        <section class="hq-area" aria-label="Quadrinho escolhido">
+            <img alt="Capa de quadrinho" id="hqImage">
+            <div id="categoryName" role="status" aria-live="polite"></div>
+        </section>
+
+        <div class="controls">
+            <button id="randomBtn">🎲 Quadrinho aleatório</button>
+        </div>
+
+        <div class="search">
+            <input
+                type="text"
+                id="categoryInput"
+                placeholder="Busque uma editora (ex.: marvel, dc)"
+                aria-label="Categoria de quadrinhos"
+            >
+            <button id="searchBtn">🔍 Buscar</button>
+        </div>
+    </main>
+</body>
+</html>
