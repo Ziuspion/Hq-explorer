@@ -57,6 +57,6 @@ O README deve exibir os três arquivos com a sintaxe `![Descrição](prints/nome
 
 
 ## Prints 
-[!print](prints/funcionando.png)
-[!print](<prints/funcionando com nome.png>) 
-[!print](<prints/dando erro 404.png>)
+![alt text](prints/funcionando.png)
+![alt text](<prints/funcionando com nome.png>) 
+![alt text](<prints/dando erro 404.png>)
